@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/script.js"></script>
+</head>
+
+<body>
+
+    <div class="slider">
+        
+    </div>
+
+    <div class="update">
+        <h4>Latest Updates</h4>
+        <ul>
+            <li>Dhamaka in theaters on Dec 23rd</li>
+            <li>Vikramarkudu 4K is reloading</li>
+        </ul>
+    </div>
+
+    <div class="update">
+        <h4>On This Day</h4>
+        <ul>
+            <li id="OTD">14 years for Vikramarkudu</li>
+        </ul>
+    </div>
+
+    <div class="menuCnt">
+
+        <h4 id="menu_Heading">Data</h4>
+        <div class="menu">
+            <div class="menuops">
+                <ul>
+                    <li class="icon" id="O1" onclick="redirect(this.innerHTML)">Over View</li>
+                    <li class="icon" id="O2" onclick="redirect(this.innerHTML)">Filomgraphy</li>
+                </ul>
+    
+                <ul>
+                    <li class="icon" id="O3" onclick="redirect(this.innerHTML)">Biography</li>
+                    <li class="icon" id="O4" onclick="opendyk()">Do you Know</li>
+                </ul>
+            </div>
+            <li class="bckbtn" onclick="history.back()">Back</li>
+
+            <div class="dyk" id="dyk">
+                <li onclick="closedyk()">X</li>
+                <p id="HeadNote">Raviteja is having hatrick hit in a single year!</p>
+                <p class="subnote">In 2002, Raviteja acheived 3 back to back hits with Avunu Vallidharu Istapaddaru, Idiot and Khadgham.</p>
+            </div>
+
+        </div>
+        
+
+        
+    </div>
+
+    
+</body>
+
+</html>
